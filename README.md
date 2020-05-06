@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fi">
 	<head>
-		
+		<link rel="stylesheet" href="advanced.css">
 		<title>Advanced</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
