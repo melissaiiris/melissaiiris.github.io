@@ -1,0 +1,50 @@
+#esimerkki1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #ecc6c6;
+  margin-bottom:50px;
+}
+
+h1 {
+  text-shadow: 3px 3px #ecc6c6;
+}
+
+#esimerkki2 {
+  background:url(seal4.jpg);
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+a:link {
+transition: 2s;
+color: hsl(210, 100%, 29%);
+}
+
+
+a:hover {
+color: hsl(210, 100%, 50%);
+}
+
+body {
+  background-color: #99e6ff;
+  color: #004b66;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #cc99ff;
+	color:#19194d;
+  }
+}
+
+.testi:link {
+	transition: 2s;
+	color: hsl(142, 100%, 27%);
+}
+
+.testi:hover {
+	color: hsl(142, 100%, 18%);
+}
+
