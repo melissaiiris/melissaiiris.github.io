@@ -19,6 +19,12 @@ hr.new1 {
 	margin-bottom: 9px;
 }
 
+hr.new2 {
+	border-top: 2px solid black;
+	margin-top: 5px;
+	margin-bottom: 9px;
+}
+
 .nav-link {
 	color: black;
 	font-family: "Times New Roman", Times, serif;
@@ -75,5 +81,77 @@ footer {
   box-shadow: 5px 10px #ecc6c6;
   margin-bottom:30px;
   
+}
+
+#esimerkki2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #ecc6c6;
+	margin-top:23px;
+  margin-bottom:30px;
+  
+}
+
+.carousel-caption{
+	color: red;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	margin-top:-50px;
+	
+}
+
+a:link {
+transition: 1s;
+color: hsl(210, 100%, 29%);
+}
+
+
+a:hover {
+color: hsl(210, 100%, 50%);
+}
+
+@media (max-width: 575.98px) {
+  body {
+    background-color: #cc99ff;
+	color:#19194d;
+  }
+  
+  hr.new2 {
+	border-top: 2px solid transparent;
+  }
+  
+  .piilotus {
+	display:none;
+  }
+  
+  .cover {
+	 margin-top: -120px;
+  }
+  
+  .cover-heading {
+	font-size: 380%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+}
+
+
+
+
+.question{
+	font-weight: 500;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	margin-left: 15px;
+}
+
+#quiz{
+		margin-top: 30px;
 }
 
