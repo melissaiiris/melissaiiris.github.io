@@ -1,0 +1,79 @@
+body {
+	background:gray ;
+	color: black;
+}
+
+footer {
+	background: gray ;
+}
+
+.cover-heading {
+	font-size: 400%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+hr.new1 {
+	border-top: 2px solid black;
+	margin-top: 5px;
+	margin-bottom: 9px;
+}
+
+.nav-link {
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	
+	
+}
+
+.etusivu {
+	padding-top:26px;
+	padding-right:16px;
+}
+
+h1 {
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+	
+}
+
+
+
+a,
+a:focus,
+a:hover {
+  color:rgba(255,255,255,.75);
+}
+footer {
+	
+	
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+.keskitetty {
+	text-align: center;
+}
+
+.navbar-collapse {
+	
+	text-align: center;
+}
+
+.navbar-expand-sm {
+	paddin-top: 50px;
+}
+
+#esimerkki1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #ecc6c6;
+  margin-bottom:30px;
+  
+}
+
