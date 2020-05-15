@@ -75,95 +75,94 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question: "Verottaa on ruotsiksi:",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich"
+        a: "ansvariga",
+        b: "beskatta",
+        c: "dividender"
+      },
+      correctAnswer: "b"
+    },
+    {
+      question: "Markkinarako on ruotsiksi:",
+      answers: {
+        a: "försörja",
+        b: "ett tillfälle",
+        c: "en nisch"
       },
       correctAnswer: "c"
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "Edistää on ruotsiksi:",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
-      },
-      correctAnswer: "c"
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint"
-      },
-      correctAnswer: "d"
-    },
-	{
-      question: "Which one of these is a JavaScript package manager?",
-      answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "målmedveten",
+        b: "råda",
+        c: "främja",
       },
       correctAnswer: "c"
     },
 	{
-      question: "Which one of these is a JavaScript package manager?",
+      question: "En aktieägare on suomeksi:",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "Osakkeet",
+        b: "Osakekauppa",
+        c: "Osakkeenomistaja"
       },
       correctAnswer: "c"
     },
 	{
-      question: "Which one of these is a JavaScript package manager?",
+      question: "En sortimentet on suomeksi:",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "Valikoima",
+        b: "Vallitseva",
+        c: "Valita"
+      },
+      correctAnswer: "a"
+    },
+	{
+      question: "Mikä on tytäryhtiö ruotsiksi:",
+      answers: {
+        a: "en modepryl",
+        b: "ett moderbolag",
+        c: "ett dotterbolag"
       },
       correctAnswer: "c"
     },
 	{
-      question: "Which one of these is a JavaScript package manager?",
+      question: "Mikä on liikevaihto ruotsiksi:",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "utvald",
+        b: "hållbarhet",
+        c: "omsättning"
       },
       correctAnswer: "c"
     },
 	{
-      question: "Which one of these is a JavaScript package manager?",
+      question: "Mikä on ilmoitus ruotsiksi:",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "jämföra",
+        b: "en annons",
+        c: "ett utbud"
       },
-      correctAnswer: "c"
+      correctAnswer: "b"
     },
 	{
-      question: "Which one of these is a JavaScript package manager?",
+      question: "Mikä on erinomainen ruotsiksi:",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "förträfflig",
+        b: "fördelen",
+        c: "förutspå"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
 	{
-      question: "Which one of these is a JavaScript package manager?",
+      question: "Mikä on lasku ruotsiksi:",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm"
+        a: "en räkning",
+        b: "ett utsläpp",
+        c: "en odling"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     }
   ];
 
