@@ -27,7 +27,8 @@ hr.new2 {
 
 .nav-link {
 	color: black;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
 	font-size: 120%;
 	
 	
@@ -41,6 +42,8 @@ hr.new2 {
 h1 {
 	padding-bottom: 5px;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -85,6 +88,11 @@ footer {
 
 .keskitetty {
 	text-align: center;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 }
 
 .navbar-collapse {
