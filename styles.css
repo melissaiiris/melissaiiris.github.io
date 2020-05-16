@@ -1,11 +1,8 @@
 body {
-	background:gray ;
+	background:#809DA8;
 	color: black;
 }
 
-footer {
-	background: gray ;
-}
 
 .cover-heading {
 	font-size: 400%;
@@ -40,50 +37,51 @@ hr.new2 {
 }
 
 h1 {
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 }
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
 
+.row {
+	padding-bottom: 20px;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: black;
 	
 }
 
-.table {
-	border-color:red;
-	background-color: pink;
-	border:1px solid green;
-	overflow-x: auto
-	width: 100% !important;
+thead {
+	background:#4F6A75;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+
+tbody {
+	background:#DEE6E9;	
 }
 
 .table td, .table th {
-	border: none;
+	border-top:1px solid #152126;
 }
-
 .table thead th {
-	border-bottom: 1px solid green;
-	overflow-x: auto
+	
+border-bottom: 1px solid #152126;
+
 }
 
-.table-responsive {
-display: block !important;
-   overflow-x: auto !important;
-   width: 100% !important;
+td, th {
+  border: 1px solid #152126;
 }
 
-a,
-a:focus,
-a:hover {
-  color:rgba(255,255,255,.75);
-}
 footer {
-	
-	
 	padding-top: 50px;
 	padding-bottom:50px;
+	background: transparent;
 }
 
 .keskitetty {
@@ -104,26 +102,27 @@ p {
 	paddin-top: 50px;
 }
 
-#esimerkki1 {
+.esimerkki1 {
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px #ecc6c6;
+  box-shadow: 5px 10px #152126;
   margin-bottom:30px;
+  background:#4F6A75;
   
 }
 
 #esimerkki2 {
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px #ecc6c6;
-	margin-top:23px;
+  box-shadow: 5px 10px #152126;
+margin-top:23px;
   margin-bottom:30px;
+  background:#4F6A75;
   
 }
 
 .carousel-caption{
-	color: red;
-	font-family: "Times New Roman", Times, serif;
+	color: #152126;
 	font-size: 120%;
 	margin-top:-50px;
 	
@@ -136,13 +135,12 @@ color: black;
 
 
 a:hover {
-color: hsl(210, 100%, 50%);
+color: hsl(197, 19%, 38%);
 }
 
 @media (max-width: 575.98px) {
   body {
-    background-color: #cc99ff;
-	color:#19194d;
+    background-color: #a4b9c1;
   }
   
   hr.new2 {
@@ -152,10 +150,7 @@ color: hsl(210, 100%, 50%);
   .piilotus {
 	display:none;
   }
-  
-  .cover {
-	
-  }
+ 
   
   .cover-heading {
 	font-size: 380%;
@@ -164,14 +159,19 @@ color: hsl(210, 100%, 50%);
 }
 }
 
-
+mark {
+	background:#DEE6E9;
+	
+}
 
 
 .question{
+	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
 }
 .answers {
   margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
 }
 .answers label{
   display: block;
@@ -184,6 +184,6 @@ color: hsl(210, 100%, 50%);
 		margin-top: 30px;
 }
 
-font-family: 'Crimson Text', serif;
-
-font-family: 'Oswald', sans-serif;
+button {
+	font-family: 'Lato', sans-serif;
+}
