@@ -27,8 +27,6 @@ hr.new2 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
 	font-size: 120%;
-	
-	
 }
 
 .etusivu {
@@ -42,6 +40,7 @@ h1 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 }
+
 h3 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
@@ -70,12 +69,12 @@ tbody {
 }
 .table thead th {
 	
-border-bottom: 1px solid #152126;
+	border-bottom: 1px solid #152126;
 
 }
 
 td, th {
-  border: 1px solid #152126;
+	border: 1px solid #152126;
 }
 
 footer {
@@ -98,27 +97,26 @@ p {
 	text-align: center;
 }
 
-.navbar-expand-sm {
-	paddin-top: 50px;
-}
 
 .esimerkki1 {
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #152126;
-  margin-bottom:30px;
-  background:#4F6A75;
-  
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px #152126;
+	margin-bottom:30px;
+	background:#4F6A75;
 }
 
 #esimerkki2 {
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #152126;
-margin-top:23px;
-  margin-bottom:30px;
-  background:#4F6A75;
-  
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px #152126;
+	margin-top:23px;
+	margin-bottom:30px;
+	background:#4F6A75;
+}
+
+.linkki:hover {
+	color: hsl(198, 29%, 12%);
 }
 
 .carousel-caption{
@@ -129,13 +127,13 @@ margin-top:23px;
 }
 
 a:link {
-transition: 1s;
-color: black;
+	transition: 1s;
+	color: black;
 }
 
 
 a:hover {
-color: hsl(197, 19%, 38%);
+	color: hsl(197, 19%, 38%);
 }
 
 @media (max-width: 575.98px) {
@@ -150,7 +148,6 @@ color: hsl(197, 19%, 38%);
   .piilotus {
 	display:none;
   }
- 
   
   .cover-heading {
 	font-size: 380%;
@@ -160,8 +157,7 @@ color: hsl(197, 19%, 38%);
 }
 
 mark {
-	background:#DEE6E9;
-	
+	background:#DEE6E9;	
 }
 
 
@@ -169,19 +165,21 @@ mark {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
 }
+
 .answers {
-  margin-bottom: 20px;
-  font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+	font-family: 'Lato', sans-serif;
 }
 .answers label{
-  display: block;
+	display: block;
 }
+
 #submit{
 	margin-left: 15px;
 }
 
 #quiz{
-		margin-top: 30px;
+	margin-top: 30px;
 }
 
 button {
